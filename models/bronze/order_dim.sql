@@ -1,1 +1,2 @@
-select * from orders
+select order_id ,
+     quantity from orders
