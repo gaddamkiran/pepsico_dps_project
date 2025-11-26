@@ -1,3 +1,4 @@
 select order_id ,
-     quantity 
+     quantity,
+     order_date 
      from orders
