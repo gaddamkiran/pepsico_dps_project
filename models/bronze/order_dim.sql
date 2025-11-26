@@ -1,2 +1,3 @@
 select order_id ,
-     quantity from orders
+     quantity 
+     from orders
