@@ -1,0 +1,9 @@
+
+version: 2
+
+sources:
+  - name: staging
+    database: CIAM_DB      # e.g. DPS_DB or RAW_DB
+    schema: STAGGING         # e.g. STAGING or RAW
+    tables:
+      - name: CIAM_CUSTOMERS
