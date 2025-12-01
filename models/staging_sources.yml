@@ -1,0 +1,20 @@
+
+version: 2
+
+sources:
+  - name: charan_demo_db
+    schema: bronze_demo
+    tables:
+      - name: vehicle_dispatch_schedule
+      - name: order_dispatch_planning
+      - name: dispatch_resource_allocation
+
+models:
+  - name: int_vehicle_dispatch_schedule
+    description: "Intermediate model for vehicle dispatch schedule"
+  
+  - name: int_order_dispatch_planning
+    description: "Intermediate model for order dispatch planning"
+
+  - name: int_dispatch_resource_allocation
+    description: "Intermediate model for dispatch resource allocation"
